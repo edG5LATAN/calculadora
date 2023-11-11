@@ -79,3 +79,48 @@ footer>p{
 footer>p>span{
   color: gold;
 }
+@media (max-width:480px){
+  header>img{
+    left: 2px;
+  }
+  header>h1{
+    font-size: 28px;
+  }
+  /*main*/
+  .calculadora{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 3px solid black; */
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 2px 3px white; */
+  }
+  .calculadora>input{
+    width: 80%;
+    padding: 20px 20px;
+    font-size: 33px;
+    text-align: end;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 4px solid black;
+  }
+  .contenedor-botones{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  button{
+    width: 72px;
+    height: 70px;
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .contenedor-botones>.igual{
+    width: 100%;
+  }
+}
