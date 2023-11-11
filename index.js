@@ -74,30 +74,29 @@ suma.addEventListener("click",(e)=>{
    numeroA=display.value
    display.value=""
    op=e.target.textContent
-   console.log(numeroA,op)
+  // console.log(numeroA,op)
 })
 resta.addEventListener("click",(e)=>{
    numeroA=display.value
    display.value=""
    op=e.target.textContent
-   console.log(numeroA,op)
+  // console.log(numeroA,op)
 })
 divicion.addEventListener("click",(e)=>{
    numeroA=display.value
    display.value=""
    op=e.target.textContent
-   console.log(numeroA,op)
+   //console.log(numeroA,op)
 })
 multiplicacion.addEventListener("click",(e)=>{
    numeroA=display.value
    display.value=""
    op=e.target.textContent
-   console.log(numeroA,op)
+  // console.log(numeroA,op)
 })
 
 igual.addEventListener("click",()=>{
    numeroB=display.value
-   console.log(numeroB)
 
    if(numeroA!="" && numeroB!=""){
        switch (op) {
@@ -107,7 +106,6 @@ igual.addEventListener("click",()=>{
          display.value=resultado
          numeroB=""
          numeroA=""
-         console.log(numeroB)
          break;
       case "-":
             resultado=parseFloat(numeroA)-parseFloat(numeroB);
