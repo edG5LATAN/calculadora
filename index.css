@@ -23,6 +23,7 @@ header>img:hover{
 header>h1{
   text-transform: uppercase;
   color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /*main*/
 main{
@@ -70,14 +71,18 @@ button{
 /*footer*/
 footer{
   background-color: black;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 footer>p{
   color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer>p>span{
   color: gold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 @media (max-width:480px){
   header>img{
